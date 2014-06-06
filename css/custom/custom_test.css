@@ -1,0 +1,172 @@
+/*! 
+* Custom css for aoahonen.github.io 
+*/
+
+html { overflow-y: scroll; }
+
+body {
+	background-color: #f6f6f6;
+	min-width: 800px;
+}
+
+.ml_spacer{
+	height: 25px;
+}
+
+.ml_topnav{
+	background: #F2F2f3;
+	border-color: #e4d0d0;
+	height: 60px;
+	margin-top: -10px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 1px; 
+	border-style: outset;
+
+}
+
+.ml_nav_container{
+	max-width:60%;
+	margin-left: auto;
+ 	margin-right: auto;
+}
+
+.ml_topnav img{
+	height: 30px;
+	margin-top: 15px;
+	float:left;
+}
+
+.ml_topnav ul{
+	list-style-type: none;
+}
+
+.ml_topnav li>a{
+	margin-top: 15px;
+	font-size: 20px;
+	line-height: 26px;
+	float: right;
+}
+
+
+/*
+.navbar-default .navbar-nav>li>a {
+font-size: 20px;
+	color: #7F838D;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+color: #09F;
+background-color: transparent;
+}
+
+*/
+
+.ml_header
+{
+ height: 450px;
+ background-color: #f6f6f6;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+
+.ml_header img{
+	width: 600px;	
+	margin-top: 50px;
+
+}
+
+.ml_header_desc{
+	width: 500px;
+	margin-left: auto;
+ 	margin-right: auto;	
+ 	padding-top: 25px;
+}
+
+.ml_header_desc>p{
+	padding-left: 25px;
+ 	padding-right: 25px;
+ 	font-size: 18px;
+ 	text-align: left;
+ 	font-weight: bold;
+}
+
+
+.ml_div1{
+	height: 300px;
+	background-image: url("../../assets/images/web-bg1.jpg") ;
+}
+
+.ml_div2{
+	height: 300px;	
+	background-color: #f2f2f2;
+}
+
+
+.div_content_left{
+	height: 100%;
+	width: 900px;
+	margin-left: auto;
+ 	margin-right: auto;
+ 	text-align: left;
+ 	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.div_content_left>h2{
+	width: 500px;
+	padding-top: 50px;
+	padding-left: 25px;
+ 	text-align: left;
+ 	float: left;
+}
+.div_content_left>p{
+	font-size: 16px;
+	width: 500px;
+	padding-left: 25px;
+ 	
+ 	text-align: left;
+ 	float: left;
+}
+
+.div_content_left>.img_right{
+	float: right;
+	height: 280px;
+	margin-top:20px;
+	padding-right: 25px
+}
+
+
+
+
+.div_content_right{
+	height: 100%;
+	width: 900px;
+	margin-left: auto;
+ 	margin-right: auto;
+ 	/*text-align: left;/*
+ 	/*background-color: rgba(255, 255, 255, 0.7);*/
+}
+
+.div_content_right>h2{
+	width: 500px;
+	padding-top: 50px;
+	padding-right: 25px;
+ 	text-align: left;
+ 	float: right;
+}
+.div_content_right>p{
+	font-size: 16px;
+	width: 500px;
+	padding-right: 25px;
+ 	text-align: left;
+ 	float: right;
+}
+.div_content_right>.img_left{
+	float: left;
+	height: 280px;
+	margin-top:20px;
+	padding-right: 25px;
+	margin-left: 25px;
+}
