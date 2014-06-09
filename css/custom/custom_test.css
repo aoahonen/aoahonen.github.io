@@ -27,14 +27,14 @@ body {
 }
 
 .ml_nav_container{
-	max-width:60%;
+	max-width: 850px;
 	margin-left: auto;
  	margin-right: auto;
 }
 
 .ml_topnav img{
-	height: 30px;
-	margin-top: 15px;
+	height: 40px;
+	margin-top: 10px;
 	float:left;
 }
 
@@ -65,7 +65,7 @@ background-color: transparent;
 
 .ml_header
 {
- height: 450px;
+ height: 550px;
  background-color: #f6f6f6;
  margin-left: auto;
  margin-right: auto;
@@ -79,7 +79,7 @@ background-color: transparent;
 }
 
 .ml_header_desc{
-	width: 500px;
+	width: 550px;
 	margin-left: auto;
  	margin-right: auto;	
  	padding-top: 25px;
@@ -94,13 +94,56 @@ background-color: transparent;
 }
 
 
+.ml_apple_link{
+	width:200px;
+	height: 70px;
+	float: left;
+	margin-left: 50px;
+	margin-top: -25px;
+	
+}
+
+.ml_apple_link>a>img{
+	width: 200px;
+}
+
+.ml_google_link{	
+	width: 200px;
+	height: 70px;
+	float: right;
+	margin-right: 50px;
+	margin-top: -25px;
+}
+
+.ml_google_link>a>img{
+	width: 200px;
+	
+	
+}
+
+
+
+.download_google_button{
+	width:200px;
+	background-image: url("../../assets/images/button_android.png");
+	background-repeat: no-repeat ;
+}
+
 .ml_div1{
-	height: 300px;
+	height: 365px;
 	background-image: url("../../assets/images/web-bg1.jpg") ;
 }
 
+
 .ml_div2{
-	height: 300px;	
+	height: 365px;
+	background-image: url("../../assets/images/web-bg2.jpg") ;
+}
+
+
+
+.ml_div3{
+	height: 365px;	
 	background-color: #f2f2f2;
 }
 
@@ -116,7 +159,7 @@ background-color: transparent;
 
 .div_content_left>h2{
 	width: 500px;
-	padding-top: 50px;
+	padding-top: 100px;
 	padding-left: 25px;
  	text-align: left;
  	float: left;
@@ -132,13 +175,10 @@ background-color: transparent;
 
 .div_content_left>.img_right{
 	float: right;
-	height: 280px;
-	margin-top:20px;
+	height: 300px;
+	margin-top: 55px;
 	padding-right: 25px
 }
-
-
-
 
 .div_content_right{
 	height: 100%;
@@ -151,7 +191,7 @@ background-color: transparent;
 
 .div_content_right>h2{
 	width: 500px;
-	padding-top: 50px;
+	padding-top: 100px;
 	padding-right: 25px;
  	text-align: left;
  	float: right;
@@ -165,8 +205,8 @@ background-color: transparent;
 }
 .div_content_right>.img_left{
 	float: left;
-	height: 280px;
-	margin-top:20px;
+	height: 300px;
+	margin-top: 55px;
 	padding-right: 25px;
 	margin-left: 25px;
 }
