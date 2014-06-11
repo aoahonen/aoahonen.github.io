@@ -210,3 +210,36 @@ background-color: transparent;
 	padding-right: 25px;
 	margin-left: 25px;
 }
+
+
+
+
+/* TEST STUFF */
+
+scroll_div{
+position: relative;
+overflow: hidden;
+}
+
+ 
+.scroller1{
+background: url("../../assets/images/scroll_bg.jpg");
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 4266px;
+
+-webkit-animation: moveSlideshow 20s linear infinite;
+-moz-animation:    moveSlideshow 20s linear infinite;
+}
+
+
+@-webkit-keyframes moveSlideshow {
+    0% { left: 0; }
+    100% { left: -2837px; }
+}
+@-moz-keyframes moveSlideshow {
+    0% { left: 0; }
+    100% { left: -2837px; }
+}
