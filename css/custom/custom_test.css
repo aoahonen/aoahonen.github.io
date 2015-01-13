@@ -10,13 +10,18 @@ body {
 }
 
 .ml_spacer{
-	height: 25px;
+	height: 5px;
+	width: 100%;
+	margin: 5px;
+	clear: both;
+
+
 }
 
 .ml_topnav{
 	background: #F2F2f3;
 	border-color: #e4d0d0;
-	height: 60px;
+	/*height: 60px;*/
 	margin-top: -10px;
 	border-top: 0px;
 	border-left: 0px;
@@ -35,6 +40,7 @@ body {
 .ml_topnav img{
 	height: 40px;
 	margin-top: 10px;
+	margin-bottom: 10px;
 	float:left;
 }
 
@@ -65,11 +71,11 @@ background-color: transparent;
 
 .ml_header
 {
- height: 550px;
- background-color: #f6f6f6;
- margin-left: auto;
- margin-right: auto;
-
+	padding-top: 50px;
+	height: 550px;
+ 	background-color: #f6f6f6;
+ 	margin-left: auto;
+ 	margin-right: auto;
 }
 
 .ml_header img{
@@ -83,23 +89,26 @@ background-color: transparent;
 	margin-left: auto;
  	margin-right: auto;	
  	padding-top: 25px;
+ 	padding-bottom: 5px;
 }
 
 .ml_header_desc>p{
-	padding-left: 25px;
- 	padding-right: 25px;
- 	font-size: 18px;
- 	text-align: left;
- 	font-weight: bold;
+	padding-left: 15px;
+ 	padding-right: 15px;
+ 	font-size: 22px;
+ 	padding-bottom: 25px;
+ /*	text-align: left;
+ 	font-weight: bold;*/
 }
 
 
 .ml_apple_link{
-	width:200px;
-	height: 70px;
+	/*width:200px;
+	height: 70px;*/
 	float: left;
-	margin-left: 50px;
-	margin-top: -25px;
+	margin-left: 225px;
+	/*margin-top: -25px;*/
+	/*margin-bottom: 100px;*/
 	
 }
 
@@ -108,20 +117,18 @@ background-color: transparent;
 }
 
 .ml_google_link{	
-	width: 200px;
-	height: 70px;
+/*	width: 200px;
+	height: 70px;*/
 	float: right;
-	margin-right: 50px;
-	margin-top: -25px;
+	margin-right: 225px;
+	/*margin-top: -25px;*/
+	/*margin-bottom: 100px;*/
+
 }
 
 .ml_google_link>a>img{
-	width: 200px;
-	
-	
+	width: 200px;	
 }
-
-
 
 .download_google_button{
 	width:200px;
@@ -129,24 +136,40 @@ background-color: transparent;
 	background-repeat: no-repeat ;
 }
 
+.ml_header_div{
+	margin-top: 60px;
+	height: 720px;
+	background-image: url("../../assets/images/web-bg_big.jpg") ;
+}
+
 .ml_div1{
 	height: 365px;
 	background-image: url("../../assets/images/web-bg1.jpg") ;
 }
-
 
 .ml_div2{
 	height: 365px;
 	background-image: url("../../assets/images/web-bg2.jpg") ;
 }
 
-
-
 .ml_div3{
 	height: 365px;	
 	background-color: #f2f2f2;
 }
 
+.ml_header_content{
+	padding-top: 45px;
+	height: 100%;
+	width: 960px;
+	margin-left: auto;
+ 	margin-right: auto;
+ 	/*text-align: left;*/
+ 	background-color: rgba(255, 255, 255, 0.7);
+ 	
+ 	h2 {
+ 		font-size: 36px;
+ 	}
+}
 
 .div_content_left{
 	height: 100%;
@@ -164,8 +187,9 @@ background-color: transparent;
  	text-align: left;
  	float: left;
 }
+
 .div_content_left>p{
-	font-size: 16px;
+	font-size: 20px;
 	width: 500px;
 	padding-left: 25px;
  	
@@ -197,7 +221,7 @@ background-color: transparent;
  	float: right;
 }
 .div_content_right>p{
-	font-size: 16px;
+	font-size: 20px;
 	width: 500px;
 	padding-right: 25px;
  	text-align: left;
