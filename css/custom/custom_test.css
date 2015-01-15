@@ -2,7 +2,8 @@
 * Custom css for aoahonen.github.io 
 */
 
-html { overflow-y: scroll; }
+
+html { overflow-y: scroll; overflow-x: hidden; }
 
 body {
 	/*background-color: #f6f6f6;*/
@@ -75,7 +76,7 @@ body {
 
 .ml_header_content{
 	padding-top: 45px;
-	height: 720px;
+	height: 600px;
 	width: 960px;
 	margin-left: auto;
  	margin-right: auto;
@@ -89,7 +90,7 @@ body {
 .ml_header_div{
 	margin-top: 60px;
 	/*height: 600px;*/
-	background-image: url("../../assets/images/web-bg_big.jpg") ;
+	background-image: url("../../assets/images/ml-webbg-big2.png") ;
 }
 
 .ml_header_desc{
