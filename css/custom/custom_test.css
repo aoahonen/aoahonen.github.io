@@ -5,8 +5,9 @@
 html { overflow-y: scroll; }
 
 body {
-	background-color: #f6f6f6;
-	min-width: 800px;
+	/*background-color: #f6f6f6;*/
+	background-color: #FFFBF9;;
+	min-width: 960px;
 }
 
 .ml_spacer{
@@ -14,32 +15,30 @@ body {
 	width: 100%;
 	margin: 5px;
 	clear: both;
-
-
 }
 
 .ml_topnav{
 	background: #F2F2f3;
 	border-color: #e4d0d0;
-	/*height: 60px;*/
 	margin-top: -10px;
 	border-top: 0px;
 	border-left: 0px;
 	border-right: 0px;
 	border-bottom: 1px; 
 	border-style: outset;
+	min-width: 960px;
 
 }
 
 .ml_nav_container{
-	max-width: 850px;
+	max-width: 1200px;
 	margin-left: auto;
  	margin-right: auto;
 }
 
 .ml_topnav img{
 	height: 40px;
-	margin-top: 10px;
+	margin-top: -5px;
 	margin-bottom: 10px;
 	float:left;
 }
@@ -48,40 +47,49 @@ body {
 	list-style-type: none;
 }
 
-.ml_topnav li>a{
+.nav_cont_links li{
+	padding-top:15px;
+}
+
+.nav_cont_links li>a { 
+		text-decoration: none;
+		color: #444;
+		font-size: 20px;
+		line-height: 26px;
+		margin-right: 1em;
+}
+
+.nav_access_links li>a{
 	margin-top: 15px;
 	font-size: 20px;
 	line-height: 26px;
 	float: right;
+	color: #444;
+	text-decoration: none;
+	margin-left: 0.2em;
 }
 
-
-/*
-.navbar-default .navbar-nav>li>a {
-font-size: 20px;
-	color: #7F838D;
+.nav_access_links li>a:hover{
+		color: #FA6600;
 }
 
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-color: #09F;
-background-color: transparent;
-}
-
-*/
-
-.ml_header
-{
-	padding-top: 50px;
-	height: 550px;
- 	background-color: #f6f6f6;
- 	margin-left: auto;
+.ml_header_content{
+	padding-top: 45px;
+	height: 720px;
+	width: 960px;
+	margin-left: auto;
  	margin-right: auto;
+ 	background-color: rgba(255, 255, 255, 0.7);
+ 	
+ 	h2 {
+ 		font-size: 36px;
+ 	}
 }
 
-.ml_header img{
-	width: 600px;	
-	margin-top: 50px;
-
+.ml_header_div{
+	margin-top: 60px;
+	/*height: 600px;*/
+	background-image: url("../../assets/images/web-bg_big.jpg") ;
 }
 
 .ml_header_desc{
@@ -97,19 +105,12 @@ background-color: transparent;
  	padding-right: 15px;
  	font-size: 22px;
  	padding-bottom: 25px;
- /*	text-align: left;
- 	font-weight: bold;*/
 }
 
 
 .ml_apple_link{
-	/*width:200px;
-	height: 70px;*/
 	float: left;
 	margin-left: 225px;
-	/*margin-top: -25px;*/
-	/*margin-bottom: 100px;*/
-	
 }
 
 .ml_apple_link>a>img{
@@ -117,13 +118,8 @@ background-color: transparent;
 }
 
 .ml_google_link{	
-/*	width: 200px;
-	height: 70px;*/
 	float: right;
 	margin-right: 225px;
-	/*margin-top: -25px;*/
-	/*margin-bottom: 100px;*/
-
 }
 
 .ml_google_link>a>img{
@@ -136,11 +132,105 @@ background-color: transparent;
 	background-repeat: no-repeat ;
 }
 
-.ml_header_div{
-	margin-top: 60px;
-	height: 720px;
-	background-image: url("../../assets/images/web-bg_big.jpg") ;
+.ml_content_div_1
+{
+	padding-top: 10px;
+	/*background-color: #FFFBF9;*/
+	background-color: #e2e2e2;
+ 	
+ 	padding-bottom: 10px;
+ 	margin-right: auto;
+ 	margin-left: auto;
+ 	min-width: 960px;
+
 }
+
+.fixed_height550{
+	height: 550px;
+}
+
+.test-class{
+	display: inline-block;
+}
+
+.steps123 {
+	min-width: 250px;
+	max-width: 300px;	
+	float:left;
+}
+
+.steps123 img{
+	width: 90%
+
+}
+
+.steps123 p {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 2em;
+}
+
+.ml_content_div_2
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #FFFBF9;
+
+ 	/*background-color: #F2f2f2;*/
+
+ 	margin-right: auto;
+ 	margin-left: auto;
+ 	min-width: 1200px;
+}
+
+
+.usertestimony {
+	min-width: 180px;
+	max-width: 250px;	
+	float:left;
+	margin-right: 1em;
+	margin-left: 1em;
+
+}
+
+.usertestimony img{
+	width: 150px;
+
+}
+
+.usertestimony p {
+	text-align: left;
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .ml_div1{
 	height: 365px;
@@ -157,19 +247,6 @@ background-color: transparent;
 	background-color: #f2f2f2;
 }
 
-.ml_header_content{
-	padding-top: 45px;
-	height: 100%;
-	width: 960px;
-	margin-left: auto;
- 	margin-right: auto;
- 	/*text-align: left;*/
- 	background-color: rgba(255, 255, 255, 0.7);
- 	
- 	h2 {
- 		font-size: 36px;
- 	}
-}
 
 .div_content_left{
 	height: 100%;
